@@ -4,6 +4,7 @@ import { join, parse, relative, resolve } from 'path';
 import Piscina from 'piscina';
 import { readFlacFiles } from './lib/read-flac-files';
 
+
 const piscina = new Piscina({
   filename: resolve(__dirname, 'lib/worker.mjs'),
 });
